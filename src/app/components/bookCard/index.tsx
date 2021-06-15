@@ -118,7 +118,7 @@ export function BookCard() {
         <Icon>
           <FontAwesomeIcon icon={faCalendarAlt} />
         </Icon>
-        <Name onClick={toggleStartDateCalendar}>Pick Up Date</Name>
+        <Name onClick={toggleStartDateCalendar}>Pick Date</Name>
         <SmallIcon>
           <FontAwesomeIcon
             icon={isStartCalendarOpen ? faCaretUp : faCaretDown}
